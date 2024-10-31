@@ -1,14 +1,10 @@
-interface Detail {
-  createAt: Date;
-  updateAt: Date;
-}
-interface Pages {
+type Pages = {
   title: string;
   likes: number;
   accounts: string[];
   status: string;
-  details?: Detail | string | number;
-}
+  details?: { createAt: Date; updateAt: Date };
+};
 
 const page1: Pages = {
   title: 'The awesome page',
