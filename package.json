@@ -11,8 +11,11 @@
   "devDependencies": {
     "typescript": "~5.6.2",
     "vite": "^5.4.9"
+<<<<<<< HEAD
   },
   "dependencies": {
     "axios": "^1.7.7"
+=======
+>>>>>>> 7700864aa720f81926bb96fe93c3d3f9199a576d
   }
 }
